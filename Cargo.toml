@@ -1,0 +1,22 @@
+[package]
+authors = ["Robin Kruppe <robin.kruppe@gmail.com>"]
+description = "Bounding Volume Hierarchy construction"
+documentation = "https://docs.rs/beevage/0.1.0/"
+license = "MIT/Apache-2.0"
+name = "beevage"
+readme = "README.md"
+repository = "https://github.com/rkruppe/beevage.rs"
+version = "0.1.0"
+
+[dependencies]
+beebox = "0.1.1"
+cast = "0.1.0"
+cgmath = "0.12.0"
+ordered-float = "0.2.3"
+rayon = "0.6.0"
+
+[dev-dependencies]
+rand = "0.3.15"
+
+[profile.bench]
+debug = 1
