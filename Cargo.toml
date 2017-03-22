@@ -10,7 +10,7 @@ version = "0.1.0"
 
 [dependencies]
 beebox = "0.1.1"
-cast = "0.1.0"
+cast = "0.2.0"
 cgmath = "0.12.0"
 ordered-float = "0.2.3"
 rayon = "0.6.0"
